@@ -1,0 +1,103 @@
+/* /* .img{
+    width:200px;
+    height:200px;
+} */
+/*
+.same_box{
+    width:250px;
+    height:250px;
+    border: 3px solid blue;
+}
+/* .first_box{
+    background-color: red;
+    width: 100%;
+    height: 100%;
+} */
+ /* .first_box{
+    background-image: url("/4th\ lecture/ninalozej-jamniki-10279027_1280.jpg");
+    background-size: contain;
+ }
+
+ .second-box {
+    background-image: linear-gradient(to left top, yellow, lightblue 10%, rgb(25, 170, 98)); */
+    /* margin: 50px; */
+    /* margin: 50px 20px; */
+    /* margin: 100px 0 50px 70px;
+    margin: 0 100px; */
+    /* margin: auto; */
+    /* margin-top: 100px;
+    margin-left: 10px;
+
+} */
+ /* Basic Page Setup */
+/* Standard Reset */
+body {
+    background-image: url("/4th lecture/ninalozej-jamniki-10279027_1280.jpg");
+    background-size: cover;
+    color: #ffffff;
+}
+
+/* Header Layout */
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo h1 {
+    font-size: 22px;
+    color: cyan;
+}
+
+.logo span {
+    font-size: 11px;
+    color: grey;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+/* Main Body Content */
+.main-content {
+    padding: 100px 40px;
+    max-width: 600px;
+}
+
+.main-content h2 {
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.blue-text {
+    color: cyan;
+}
+
+.main-content p {
+    font-size: 16px;
+    color: white;;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.buttons a {
+    padding: 12px 24px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.btn-1 {
+    background-color: cyan;
+    color: black;;
+}
+
+.btn-2 {
+    border: 2px solid white;
+    color: white;
+}

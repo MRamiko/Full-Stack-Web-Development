@@ -1,0 +1,240 @@
+
+
+.dark-box {
+  background-color: black;
+  border-radius: 10px;
+}
+
+/* ===== Image placeholders ===== */
+
+.thumb {
+  width: 100px;
+  height: 100px;
+  background-color: lightgray;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.thumb-large {
+  width: 100%;
+  height: 250px;
+  background-color: lightgray;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thumb-medium {
+  width: 100%;
+  height: 200px;
+  background-color: lightgray;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thumb-hero {
+  min-height: 400px;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.thumb-hero-tall {
+  width: 100%;
+  height: 400px;
+  background-color: lightgray;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thumb-xl {
+  width: 100%;
+  height: 400px;
+  background-color: lightgray;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thumb-small {
+  width: 100px;
+  height: 100px;
+  background-color: lightgray;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thumb-selected {
+  border: 3px solid green;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  background-color: lightgray;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+}
+
+.avatar-lg {
+  width: 150px;
+  height: 150px;
+  background-color: lightgray;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ===== Badges ===== */
+
+.badge-blue {
+  background-color: blue;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  top: 10px;
+  left: 10px;
+}
+
+.badge-light {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.badge-yellow {
+  background-color: yellow;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.badge-red {
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.badge-red-solid {
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.badge-green {
+  background-color: green;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.badge-green-solid {
+  background-color: green;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.badge-orange {
+  background-color: orange;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.top {
+  top: 10px;
+  left: 10px;
+}
+
+.heart {
+  top: 10px;
+  right: 10px;
+  background-color: white;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ===== Buttons ===== */
+
+.btn-blue {
+  background-color: blue;
+  color: white;
+}
+
+.btn-cyan {
+  background-color: cyan;
+  color: black;
+}
+
+.btn-red {
+  background-color: red;
+  color: white;
+}
+
+.btn-navy {
+  background-color: navy;
+  color: white;
+}
+
+.btn-green {
+  background-color: green;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn-white {
+  background-color: white;
+  color: black;
+}
+
+.icon-btn {
+  width: 40px;
+  height: 40px;
+}
+
+/* ===== Text colors ===== */
+
+.text-pink {
+  color: pink;
+}
+
+.text-green {
+  color: green;
+}
+
+/* ===== Borders ===== */
+
+.border-green {
+  border-color: green !important;
+}
+
+.food-card {
+  border: none;
+}

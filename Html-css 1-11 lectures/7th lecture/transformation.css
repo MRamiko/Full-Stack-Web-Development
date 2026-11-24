@@ -1,0 +1,28 @@
+.same_box{
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    margin: 20px;
+    animation-name:animate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+/* .first_box{
+    transform: translate(50px, 50px);
+    background-color:red
+    
+}
+.second_box{
+    transform: scale(1.5);
+    background-color:green
+} */
+@keyframes animate{
+    from{
+        background-color: red;
+        transform: translate(20px, 20px);
+    }
+    to{
+        background-color: blue;
+        transform: rotate(120deg);
+    }
+}

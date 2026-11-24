@@ -1,0 +1,61 @@
+body {
+    height:  100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-box {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: yellow;
+    }
+
+    .first-box {
+        background-color: blue;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 760px) {
+    body {
+        background-color: green;
+    }
+
+    .first-box {
+       display: none;
+    }
+}
+
+@media screen and (min-width: 761px)  {
+    body {
+        background-color: orange;
+    }
+
+    .first-box {
+      transform: scale(1.5);
+       background-color: purple;
+    }
+    h2 {
+        color: white;
+    }
+}
+
+/* ! 
+media queiries
+
+! 0 -480px -sm size -mobile size
+! 481- 760px - md size - tablet size
+! 761- 990px - lg size - desktop size 
+! 991px - 1200px - xl size - large desktop size
+! 1201px - 1400px - xxl size - extra large desktop size
+
+
+! min-width : -დან;
+! max-width : -მდე;
+! min-height : -დან;
+! max-height : -მდე;
+*/

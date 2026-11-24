@@ -1,0 +1,52 @@
+.background{
+    width: 100%;
+    height: auto;
+    background-color:rgb(244, 223, 196);
+}
+.center_text{
+    text-align:center;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+.same_box {
+    width: 200px; 
+    height: auto;    
+    background-color: white;
+    margin: 20px;
+    transition: transform 0.3s ease;
+    border: 0px solid transparent;
+    border-radius: 16px;
+}
+.image_box{
+    width: 100%;
+    height: 120px;
+    object-fit:cover;
+    display:block;
+    border: 0px solid transparent;
+    border-radius: 16px;
+}
+.text_box{
+    padding:20px;
+
+}
+.meta_box{
+    font-size: 9px;
+    color: gray;
+}
+.title_box{
+    font-size:15px;
+    font-weight:bold;
+}
+.description_box{
+    font-size:13px;
+    color: gray;
+}
+.same_box:hover{
+    transform: translateY(-10px);
+    
+}
+

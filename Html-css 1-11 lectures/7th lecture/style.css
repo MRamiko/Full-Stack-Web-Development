@@ -1,0 +1,50 @@
+.parent-box {
+    width: 60%;
+    height: 70vh;
+    background-color: rgb(14, 175, 157);
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    /* justify-content: space-between;
+    align-items: center; */
+    
+    /* justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center; */
+
+    /* flex-wrap: wrap;
+    gap: 30px; */
+}
+
+/* justify-content: center; space-around, space-between, left, top */
+
+/* align-items: center; flex-start, flex-end */
+
+.same-box {
+        width: 20%;
+        height: 30%;
+        border: 3px solid red;
+}
+
+.child-box1  {
+    display: flex;
+    justify-content: end;
+    background-color: chartreuse;
+    /* align-self: flex-end; */
+    flex: 1;
+    order: 3;
+}
+
+/* align-self: flex-end; flex-start */
+
+
+.child-box2 {
+    flex: 2;
+    background-color: crimson;
+    order: 1;
+}
+.same-grand {
+    width: 20%;
+    height: 20%;
+    border: 3px solid black;
+}

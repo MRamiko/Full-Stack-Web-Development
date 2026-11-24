@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #open-btn {
+            display: block;
+            position:fixed;
+            /* margin: 150px auto 0;
+            padding: 10px 20px; */
+            top: 45%;
+            left: 45%;
+            background-color: blue;
+            color: white;
+        }
+
+        #small-window {
+            position: fixed;
+            display:none;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: white;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        button {
+            padding: 8px 15px;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="open-btn">Open Window</button>
+
+    <div id="small-window">
+        <p>This is a small window</p>
+        <button id="cancel-btn">Cancel</button>
+        <button id="save-btn">Save</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

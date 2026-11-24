@@ -1,0 +1,88 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle at center, #251c4a, #0b071e);
+    padding: 20px;
+}
+.form-card {
+    width: 100%;
+    max-width: 500px;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    padding: 40px;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #aaa;
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 0.9rem;
+    margin-top: 18px;
+    margin-bottom: 6px;
+}
+.name-row {
+    display: flex;
+    gap: 15px;
+}
+
+
+.name-row span {
+    font-size: 0.75rem;
+    color: #aaa;
+    display: block;
+    margin-top: 4px;
+}
+
+input, select {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 8px 0;
+    color: white;
+    font-size: 1rem;
+    outline: none;
+}
+
+select {
+    appearance: none;
+    cursor: pointer;
+    background-position: calc(100% - 10px) calc(50% + 1px), calc(100% - 5px) calc(50% + 1px);
+    background-size: 5px 5px;
+    background-repeat: no-repeat;
+}
+
+option {
+    background: #ffffff;
+    color: #000000;
+}
+
+button {
+    margin: 30px auto 0 auto;
+    background: #c2185b;
+    color: white;
+    border: none;
+    padding: 12px 40px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+}
