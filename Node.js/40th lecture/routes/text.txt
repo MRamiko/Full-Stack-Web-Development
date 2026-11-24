@@ -1,0 +1,2 @@
+<!-- <p> this id is : <%= id %> </p>
+        <p> this user is : <%= user_info %> </p> -->
